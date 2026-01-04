@@ -1,18 +1,39 @@
-## Getting Started
+# Java Swing Calculator
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A desktop calculator application built using **Java Swing**.  
+It supports both **mouse input** and **keyboard input**, similar to a real calculator.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Basic arithmetic operations: `+`, `-`, `×`, `÷`
+- Square root (`√`)
+- Percentage (`%`)
+- Sign toggle (`+/-`)
+- Clear (`AC`)
+- Keyboard support:
+  - Numbers `0–9`
+  - `+ - * /`
+  - `Enter` for equals
+  - `Backspace` to delete
+  - `Esc` to clear
+- Clean UI using Java Swing
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+technologies used
 
-## Dependency Management
+- Java
+- Java Swing (GUI)
+- Git & GitHub
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+how to run 
+
+Make sure Java is installed.
+
+```bash
+javac Calculator.java
+java Calculator
